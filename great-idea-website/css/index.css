@@ -64,3 +64,141 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+a{
+    cursor:pointer;
+}
+
+body > section {
+    max-width:1180px;
+    margin:0 120px;
+    padding: 20px 0 70px;
+}
+
+div {}
+
+nav > ul, nav > logo {
+    display:inline-block;
+}
+
+nav > ul > li{
+    display:inline-block;
+    width:calc((100% / 6) - 6px);
+}
+
+nav > ul{
+    width:calc(100% - 240px);
+}
+
+nav a {
+    color:#bbb;
+    font-size:18px;
+    width: 100%;
+    display: inline-block;
+}
+
+logo {
+    width: 230px;
+}
+
+logo img{
+    width:100%;
+    position:relative;
+    top:6px;
+}
+
+header {
+    text-align: center;
+    padding-top: 100px;
+}
+
+header > div{
+    display: inline-block;
+    vertical-align: top;
+    width:40%;
+}
+
+header > div:first-child{
+    width:60%;
+    padding-top: 60px;
+}
+h1 {
+    font-size: 100px;
+}
+
+p{
+	font-size:18px;
+	line-height:1.25;
+}
+
+header img{
+    width:100%;
+}
+
+header h1{
+    margin-bottom:40px
+}
+
+header a {
+    border: 1px solid #000;
+    padding: 6px 65px;
+    font-size: 22px;
+}
+
+.header-wrapper {
+    padding-bottom: 100px;
+    border-bottom: 1px solid #000;
+}
+
+.info-wrapper {
+    padding-bottom: 25px;
+    border-bottom: 1px solid #000;	
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom:20px;
+}
+
+.features-about-row > div {
+    display: inline-block;
+    width: 50%;
+    padding-right: 30px;
+
+}
+
+.middle-img{
+	width:100%;
+}
+
+.features-about-row, .services-product-vision-row{
+    padding-bottom:45px;
+    padding-top:50px;
+}
+
+.services-product-vision-row > div{
+    display: inline-block;
+    width: 33.333%;
+    padding-right: 30px;	
+}
+
+.contact-wrapper{
+	padding-top:60px;
+	font-size:18px;
+	line-height: 1.25;
+	padding-bottom:60px;
+}
+
+.contact-wrapper a{
+	text-decoration: none;
+	color:#000;
+}
+
+p.copyright{
+	text-align: center;
+}
+
+p.small{
+	font-size:16px;
+}
